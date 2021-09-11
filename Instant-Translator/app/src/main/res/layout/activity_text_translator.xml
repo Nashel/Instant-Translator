@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/rep_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:text="@string/playButton" />
+
+    <TextView
+        android:id="@+id/tv_text_to_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_text_to_translate"
+        android:textSize="12pt"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/content_text_to_translate"
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/tv_text_to_translate"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_text_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_translate"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/content_text_to_translate"/>
+
+    <TextView
+        android:id="@+id/tv_text_translated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_translate"
+        android:textSize="12pt"
+        android:layout_below="@id/button_text_translate"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/content_text_translated"
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/tv_text_translated"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:text="Return" />
+
+
+</RelativeLayout>

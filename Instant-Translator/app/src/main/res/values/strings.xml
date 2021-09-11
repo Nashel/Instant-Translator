@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Instant-Translator</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_title_1">Instant</string>
+    <string name="main_title_2">Translator</string>
+    <string name="button_translate">Translate</string>
+    <string name="tv_text_to_translate">Enter the text to translate: </string>
+    <string name="text_translate">Text translated: </string>
+    <string name="language_orig">Language Original: </string>
+    <string name="language_Final">Language to Translate: </string>
+    <string name="playButton">PLAY </string>
+</resources>
